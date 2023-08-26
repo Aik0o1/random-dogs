@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(231, 231, 118);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+img{
+    width: 70vh;
+    /* height: 100vh; */
+}
+
+.mudar{
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: rgb(66, 141, 88);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    box-shadow: 1px 2px 2px 1px black;
+}
+
+.mudar:hover{
+    background-color: rgb(133, 221, 162);
+}
+.mudar:active{
+    box-shadow: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
